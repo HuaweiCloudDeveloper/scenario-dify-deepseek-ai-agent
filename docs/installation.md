@@ -1,6 +1,5 @@
 # 概述
-此文档介绍在鲲鹏云服务器（aarch64）上Huawei Cloud Euler（HCE） 或者Ubuntu 22.04 系统中采用vLLM推理框架部署DeepSeek-R1-Distill-Qwen-7B模型的推理服务。
-<br>同时安装了Dify，用户可以通过Dify配置部署的模型服务进行低代码的AI Agent开发。
+安装vLLM和Dify，部署DeepSeek-R1-Distill-Qwen-7B模型。
 
 # 资源
 购买鲲鹏算力的ECS服务。<br>
@@ -18,4 +17,4 @@
 - Dify 0.15.3
 
 # 使用
-推理服务的启动和验证，参考[usage.md](usage.md)进行使用。
+推理服务的启动和验证，参考[usage](usage.md)进行使用。

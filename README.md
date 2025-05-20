@@ -1,9 +1,23 @@
-# 鲲鹏云部署DeepSeek-R1-Distill-Qwen-7B推理服务
+# 鲲鹏云上部署DeepSeek-R1-Distill-Qwen-7B、Dify进行私有化AI Agent的开发
 
 ## 介绍
-在鲲鹏云服务器(aarch64)上Huawei Cloud Euler OS （简称HCE）或者Ubuntu 22.04 中通过框架vLLM部署 DeepSeek-R1-Distill-Qwen-7B 提供OpenAI兼容的http接口。
+在鲲鹏云上Huawei Cloud Euler OS （简称HCE）或者Ubuntu 22.04 中通过框架vLLM部署 DeepSeek-R1-Distill-Qwen-7B 提供推理服务。
 <br>
-同时安装了Dify，用户可以通过Dify配置部署的模型服务进行低代码的AI Agent开发。
+
+安装Dify，用户可以
+- 通过Dify配置部署的模型服务进行低代码的AI Agent开发。
+- 通过Dify部署运行AI Agent应用。
+
+## 适用场景
+DeepSeek-R1是一个高性能的AI推理模型，专注于数学、代码和自然语言的推理任务，结合Dify平台能快速打造专属私人AI助手。
+<br>
+主要场景包括：
+- 自然语言处理（NLP）：能够理解和生成自然语言文本，适用于对话、翻译、摘要等任务。
+- 文本生成：能够生成连贯、逻辑清晰的文本，适用于内容创作、故事编写等。
+- 问答系统：能够回答用户提出的问题，适用于客服、知识库查询等场景。
+- 情感分析：能够分析文本中的情感倾向，适用于市场调研、舆情监控等。
+- 文本分类：能够对文本进行分类，适用于垃圾邮件过滤、新闻分类等。
+- 信息抽取：能够从文本中提取关键信息，适用于数据挖掘、知识图谱构建等。
 
 
 ## 安装教程
